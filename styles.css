@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5fff0;
+  color: #2e4d1d;
+}
+header {
+  background-color: #3b741c;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+.hero {
+  padding: 2em;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 2.5em;
+}
+.hero p {
+  font-size: 1.2em;
+}
+.btn {
+  background-color: #68b032;
+  color: white;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  text-decoration: none;
+}
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+}
+.product {
+  text-align: center;
+  margin: 1em;
+}
+.product img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+.product h3 {
+  font-size: 1.2em;
+}
+.product p {
+  font-size: 1em;
+}

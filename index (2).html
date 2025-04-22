@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Casa do Agricultor</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Casa do Agricultor</h1>
+    <p>O melhor em produtos agrícolas</p>
+  </header>
+
+  <div class="hero">
+    <h1>Bem-vindo à Casa do Agricultor!</h1>
+    <p>Produtos de qualidade para sua lavoura, sua criação e sua terra.</p>
+    <a href="loja.html" class="btn">Acessar Loja</a>
+  </div>
+
+  <!-- Produtos -->
+  <div class="product">
+    <img src="https://via.placeholder.com/300x200/68b032/ffffff?text=Sementes" alt="Sementes"/>
+    <h3>Sementes</h3>
+    <p>Encontre as melhores sementes para sua plantação!</p>
+    <button class="btn" onclick="addToCart('Sementes', 50)">Adicionar ao Carrinho - R$50</button>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/300x200/68b032/ffffff?text=Fertilizantes" alt="Fertilizantes"/>
+    <h3>Fertilizantes</h3>
+    <p>Alimente sua terra com produtos de alta qualidade!</p>
+    <button class="btn" onclick="addToCart('Fertilizantes', 80)">Adicionar ao Carrinho - R$80</button>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/300x200/68b032/ffffff?text=Ferramentas" alt="Ferramentas"/>
+    <h3>Ferramentas</h3>
+    <p>Ferramentas duráveis para facilitar o seu trabalho!</p>
+    <button class="btn" onclick="addToCart('Ferramentas', 120)">Adicionar ao Carrinho - R$120</button>
+  </div>
+
+  <!-- Botão do WhatsApp -->
+  <div class="whatsapp">
+    <a href="https://wa.me/5594999727686" target="_blank">
+      <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp"/>
+    </a>
+  </div>
+
+  <!-- Script do Carrinho -->
+  <script src="scripts.js"></script>
+</body>
+</html>
